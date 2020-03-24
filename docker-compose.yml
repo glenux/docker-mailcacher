@@ -1,0 +1,12 @@
+---
+
+version: "3.4"
+
+services:
+  mailcatcher:
+    build: .
+    ports:
+      - "1025:1025"
+      - "1080:1080"
+
+#
